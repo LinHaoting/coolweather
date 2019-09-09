@@ -29,12 +29,12 @@ public class City extends DataSupport {
         this.cityName = cityName;
     }
 
-    public int getCitycode() {
+    public int getCityCode() {
         return cityCode;
     }
 
-    public void setCitycode(int citycode) {
-        this.cityCode = citycode;
+    public void setCityCode(int cityCode) {
+        this.cityCode = cityCode;
     }
 
     public int getProvinceId() {
