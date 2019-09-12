@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
-        android:text="空气质量"
+        android:text="风向风力"
         android:textColor="#fff"
         android:textSize="20sp"
         />
@@ -34,7 +34,7 @@
                 android:layout_centerInParent="true">
 
                 <TextView
-                    android:id="@+id/api_text"
+                    android:id="@+id/wind_dir_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -46,7 +46,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="AQI 指数"
+                    android:text="风向"
                     android:textColor="#fff"
                     />
 
@@ -66,7 +66,7 @@
                 android:layout_centerInParent="true">
 
                 <TextView
-                    android:id="@+id/pm25_text"
+                    android:id="@+id/wind_sc_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -78,7 +78,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="PM2.5 指数"
+                    android:text="风力"
                     android:textColor="#fff"
                     />
 

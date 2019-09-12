@@ -15,3 +15,13 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+// ÅÅ³ýokhttp
+  -dontwarn com.squareup.**
+  -dontwarn okio.**
+  -keep public class org.codehaus.* { *; }
+  -keep public class java.nio.* { *; }
+
+// ÅÅ³ýHeWeather
+  -dontwarn interfaces.heweather.com.interfacesmodule.**
+  -keep class interfaces.heweather.com.interfacesmodule.** { *;}

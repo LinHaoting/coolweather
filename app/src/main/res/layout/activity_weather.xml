@@ -21,7 +21,8 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
 
             <include layout="@layout/title"/>
 
@@ -29,9 +30,9 @@
 
             <include layout="@layout/forecast"/>
 
-            <include layout="@layout/aqi"/>
+            <include layout="@layout/wind"/>
 
-            <include layout="@layout/suggestion"/>
+            <include layout="@layout/lifestyle"/>
 
         </LinearLayout>
 
